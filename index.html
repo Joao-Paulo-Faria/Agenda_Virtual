@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+    
+    <title>Documento</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-4">
+                <img src="img/ex9_1.jpg" alt="Tarefas" class="img-fluid">
+            </div>
+            <div class="col-sm-8" id="divQuadro">
+                <h1>Tarefas do Dia( a realizar)</h1>
+                <form>
+                    <p><label for="inTarefa">Tarefa:</label>
+                        <input type="text" class="form-control" id="inTarefa" required autofocus>
+                    </p>
+                    <p><input type="submit" class="btn btn-primary" value="Adicionar item na Lista &#10003;">
+                        <input type="button" value="Selecionar item a ser feito na Lista &#8645;" class="btn btn-info" id="btselecionar">
+                        <input type="button" value="Concluído na Lista &#9673;" class="btn btn-dark" id="btok">
+                        <input type="button" value="Excluir da Lista &#10007;" class="btn btn-danger" id="btRetirar">
+                        <input type="button" value="Gravar &#9673;" class="btn btn-success" id="btGravar">
+                        <input type="button" value="Atualizar" class="btn btn-dark" id="btatu">
+                    </p>
+                    <p><input type="button" value="Selecionar item concluído da Lista &#8645;" class="btn btn-info" id="btselecionar2">
+                        <input type="button" value="Desconcluído na Lista &#9673;" class="btn btn-dark" id="btvoltar">
+                    </p>
+                    <br>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="js/ex10_1.js"></script>
+</body>
+</html>
